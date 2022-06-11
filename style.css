@@ -1,0 +1,572 @@
+.b{
+    background-color: yellow;
+   }
+  h2{
+    text-align: center;
+  }
+  .heading {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  a {
+    font-size: 20px;
+    margin-left:500px;
+    padding-top: 70px;
+  }
+  
+  .mainn{
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  .box1 {
+    margin-top: 40px;
+    margin-bottom:10px;
+    margin-left:30px;
+    margin-right: 30px; 
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    
+  }
+  .box11 {
+    background-color: silver;
+    animation-name: box11; 
+   animation-duration: 4s; 
+    animation-iteration-count: infinite;    
+  animation-timing-function :linear; 
+  }
+  @keyframes box11 {
+   30% {
+      transform: skewX(30deg);
+    }
+    60% {
+      transform: skewX(-30deg);
+    } 
+  }
+  .box22 {
+    animation-name: box22;
+    animation-iteration-count:  infinite;
+    animation-duration:  6s ;
+    animation-direction:   alternate-reverse;
+    background-color: blue;
+  }
+  @keyframes box22 {
+    from {
+      transform: skewY(40deg);
+    }
+    to {
+      transform: skewY(-40deg);
+    }
+  }
+  .box33 {
+    animation-name: box33;
+    animation-iteration-count:  infinite;
+    animation-duration:  5s ;
+    animation-timing-function:  linear;
+    background-color: rgb(40, 153, 197);
+  }
+  @keyframes box33 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .box41 {
+    width: 100px;
+    height: 80px;
+    animation-name: box41;
+    animation-iteration-count:  infinite;
+    animation-duration:  5s; 
+    animation-direction: alternate-reverse;
+    background-color: blueviolet;
+  }
+  @keyframes box41 {
+    40% {
+      transform: scaleY(2);
+    }
+    60% {
+      transform: scaleY(2);
+    }
+  }
+  .box42 {
+    height: 100px;
+    width: 100px;
+    animation: box42;
+    animation-iteration-count:  infinite;
+    animation-duration:  5s;
+     animation-direction: alternate-reverse;
+    background-color: purple;
+  }
+  @keyframes box42 {
+    30% {
+      transform: scaleX(2);
+    }
+    50% {
+      transform: scaleX(2);
+    }
+  }
+  .box43 {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    animation-name: box43;
+    animation-iteration-count:infinite;
+    animation-duration:   6s;
+    animation-direction:  alternate-reverse;
+  }
+  @keyframes box43 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(220deg);
+    }
+  }
+  
+  /* #####################################page2##################################### */
+  h1{
+    margin-left:470px;
+  }
+  .mainnn{
+  margin-left:300px;
+  }
+  .p{
+    width: 50%;
+    margin-left: 35%;
+  }
+  
+  .box1a {
+    /* margin-top: auto; */
+     margin-bottom:10px; 
+    margin-left:40px;
+    margin-right:50px; 
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color:greenyellow;
+   
+  }
+  .box1a:hover{
+    width: 200px;
+    animation-name:box1a;
+    animation-iteration-count:  infinite;
+    animation-duration:  6s;
+    animation-direction:  linear;
+  }
+  @keyframes box1a {
+    from {
+      width: 70px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box1b {
+     /* margin-top: 40px;  */
+    margin-bottom:10px;
+    margin-left:40px;
+    margin-right: 30px; 
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color:greenyellow;
+  }
+  .box1b:hover{
+  
+    width: 200px;
+    animation-name:box1b;
+    animation-iteration-count:  infinite;
+    animation-duration:  4s;
+    animation-direction:  alternate;
+  }
+  @keyframes box1b {
+    from {
+      width: 100px;
+      height: 100px;
+    }
+    to {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  .box1c {
+    /* margin-top: 40px; */
+    margin-bottom:10px;
+    margin-left:40px;
+    margin-right: 30px; 
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    background-color:greenyellow;
+    
+  }
+  .box1c:hover{
+        
+    width: 200px;
+    animation-name:box1c;
+    animation-iteration-count:  infinite;
+    animation-duration:  6s;
+    animation-direction:ease;
+    
+  
+  
+  
+  }
+  @keyframes box1c {
+       
+    from {
+      width: 70px;
+    }
+    to {
+      width: 300px;
+    }
+  
+  
+  
+  }
+  .box1d{
+    
+      /* margin-top: 40px; */
+      margin-bottom:10px;
+      margin-left:40px;
+      margin-right: 30px; 
+      width: 100px;
+      height: 100px;
+      border: 1px solid rgb(26, 226, 26);
+      background-color:rgb(26, 226, 26);
+      
+      
+  } 
+  .box1d:hover{
+  
+    width: 200px;
+    animation-name:box1d;
+    animation-iteration-count:  infinite;
+    animation-duration:  2s;
+    animation-direction:ease-in;
+    }
+  
+    @keyframes box1d{
+       
+      from {
+        width: 70px;
+      }
+      to {
+        width: 300px;
+      }
+    }
+    
+  
+  .box1e {
+    /* margin-top: 40px;  */
+   margin-bottom:10px;
+   margin-left:40px;
+   margin-right: 30px; 
+   width: 100px;
+   height: 100px;
+   border: 1px solid green;
+   background-color:greenyellow;
+  }
+  .box1e:hover{
+  
+    width: 200px;
+    animation-name:box1e;
+    animation-iteration-count:  infinite;
+    animation-duration:  3s;
+    animation-direction:ease-out;
+  
+  
+  }
+  @keyframes box1e{
+       
+    from {
+      width: 70px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box1f {
+    /* margin-top: 40px;  */
+   margin-bottom:10px;
+   margin-left:40px;
+   margin-right: 30px; 
+   width: 100px;
+   height: 100px;
+   border: 1px solid green ;
+   background-color:greenyellow;
+  }
+  
+  .box1f:hover{
+  
+    width: 200px;
+    animation-name:box1f;
+    animation-iteration-count:  infinite;
+    animation-duration:  3s;
+    animation-direction:ease-in-out;
+  
+  }
+  @keyframes box1f{
+       
+    from {
+      width: 70px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  .box1g {
+    /* margin-top: 40px;  */
+   margin-bottom:10px;
+   margin-left:40px;
+   margin-right: 30px; 
+   width: 100px;
+   height: 100px;
+   border: 1px solid green;
+   background-color:greenyellow;
+  }
+  .box1g:hover{
+    width: 200px;
+    animation-name:box1f;
+    animation-iteration-count:  infinite;
+    animation-duration:  3s;
+    animation-direction:  alternate;
+  
+  }
+  @keyframes box1f{
+       
+    from {
+      width: 70px;
+    }
+    to {
+      width: 300px;
+    }
+  }
+  
+    
+    
+  p {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 32px;
+  }
+  
+  
+  .item1:hover {
+    width: 200px;
+    animation: item1 infinite 6s alternate;
+  }
+  @keyframes item1 {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 400px;
+    }
+  }
+  .item2:hover {
+    width: 200px;
+    animation: item2 infinite 4s alternate;
+  }
+  @keyframes item2 {
+    from {
+      width: 100px;
+      height: 100px;
+    }
+    to {
+      width: 200px;
+      height: 150px;
+    }
+  }
+  a{
+    display: block;
+  
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  /* 3#################################page3################################ */
+  .mains{
+     height:100vh;
+    width:100%; 
+    background-image: url('sky.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .road{
+    height: 200px;
+    width:500%;
+    display: block;
+    background-image: url('road.jpg');
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation-name: road;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+  }
+  @keyframes road{
+    100%{
+      transform: translateX(-3400px);
+    }
+  
+  }
+  .city{
+    height:250px;
+    width:500%;
+    background-image: url('city.png');
+    position: absolute;
+    bottom:200px;
+    left:0;
+    right:0;
+    display: block;
+    z-index:1;
+     background-repeat: repeat-x;  
+    animation-name:city;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+  
+  
+  }
+  @keyframes city{
+    100%{
+      transform: translate(-1400px);
+    }
+  }
+  .car{
+    width:400px;
+    left:50%;
+    bottom:100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+  
+  }
+  .car img
+  {
+    width:100%;
+    animation-name:car;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+  
+  }
+  @keyframes wheel
+  {
+  
+  
+  100%{
+    transform: translateY(-1px);
+  
+  }
+  50%{
+    transform: translateY(1px);
+  
+  
+  }
+  0%{
+    transform: translateY(-1px);
+  
+  }
+  }
+  .wheel
+  {
+  left:50%;
+  bottom:178px;
+  transform:translateX(-50%);
+  position: absolute;
+  z-index: 2;
+  
+  }
+  
+  .wheel img {
+    width: 72px;
+    height: 72px;
+    animation-name: wheel;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+  
+  }
+  .w1{
+    left:-165px;
+    position: absolute;
+  }
+  .w2{
+    left:80px;
+    position: absolute;
+  }
+  @keyframes wheel
+  {
+  100%{
+    transform: rotate(360deg);
+  }
+  }
+  .sun{
+    height: 100px;
+    width:100px;
+    position:absolute;
+    left:1200px;
+    bottom:500px;
+    animation:sun 5s linear infinite;
+  }
+  @keyframes sun{
+    from{
+      transform: translate(0px);
+  
+    }
+    to{
+      transform:translate(-200px);
+    }
+  }
+  
+  
+  
+    
+  
+  .flag{
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:350px;
+    right:500px;
+    z-index:1;
+  
+  }
+  .h{
+  border:1px solid orange;
+  height:150px;
+  width:200px;
+  background-color: orange;
+  font-size:40px;
+  margin-left:380px;
+  font-weight: bold;
+  }
+  .i{
+    border:1px white;
+  height:150px;
+  width:200px;
+  background-color:white;
+  font-size:40px;
+  font-weight: bold;
+  }
+  .d{
+    border:1px darkgreen;
+  height:150px;
+  width:200px;
+  background-color:green;
+  font-size:40px;
+  font-weight: bold;
+  }
